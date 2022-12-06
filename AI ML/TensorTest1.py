@@ -6,7 +6,7 @@ from pandas_datareader import data as pdr
 import datetime as dt
 import yfinance as yfin
 yfin.pdr_override()
-import StockPull
+from parentdirectory import StockPull
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Bidirectional, Dropout, Activation, Dense, LSTM

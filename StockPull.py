@@ -25,6 +25,7 @@ def analysisout (tickers, period='5y', interval='1d'):
     hist = hist[['Date', 'Price', 'Volume']]
 
     return (hist)
+print(analysisout(tickers))
 
     # return({'Short Name':stock.info.get('shortName'),
     #         "Two Hundred Day Price:": twohundred,
@@ -34,7 +35,6 @@ def analysisout (tickers, period='5y', interval='1d'):
     # print(stockinfo.keys())
     # return()
 # pd.set_option('display.max_columns',None)
-print(analysisout(tickers))
 
 # PDAnalasis = pd.DataFrame(analysisout(tickers))
 # print(type(PDAnalasis))

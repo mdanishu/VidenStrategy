@@ -7,15 +7,15 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hello World!
+          This is Viden Strategy's first app!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="videnstrategy.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with Danish
+          Go to Viden Blog
         </a>
       </header>
     </div>

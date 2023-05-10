@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Contact = () => {
+const Contact: React.FC = () => {
 return (
 	<div>
 	<h2>Email me at Danish@videnstrategy.com</h2>
@@ -8,14 +8,15 @@ return (
         width="640px" 
         height="480px" 
         src="https://forms.office.com/r/DBdrmtmaHM?embed=true" 
-        frameborder="0" 
-        marginwidth="0" 
-        marginheight="0" 
+        frameBorder={0}
+        marginWidth={0} 
+        marginHeight={0} 
         style={{border: 'none', maxWidth: '100%', maxHeight: '100vh'}} 
-        allowfullscreen 
-        webkitallowfullscreen 
-        mozallowfullscreen 
-        msallowfullscreen>
+        allowFullScreen 
+        // webKitAllowFullScreen 
+        // mozAllowFullScreen 
+        // msAllowFullscreen
+        >
       </iframe>
 	</div>
 

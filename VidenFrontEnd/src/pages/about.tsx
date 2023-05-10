@@ -1,6 +1,6 @@
 import React from 'react';
 
-const About = () => {
+const About: React.FC = () => {
 return (
 	<div className="Home">
 	<h2>My name is Danish, founder of Viden Strategy.</h2>

@@ -1,15 +1,15 @@
 {
-  "files": {
-    "main.css": "/static/css/main.94c9ae82.css",
-    "main.js": "/static/js/main.83bf54fc.js",
-    "static/js/787.7213e72e.chunk.js": "/static/js/787.7213e72e.chunk.js",
-    "index.html": "/index.html",
-    "main.94c9ae82.css.map": "/static/css/main.94c9ae82.css.map",
-    "main.83bf54fc.js.map": "/static/js/main.83bf54fc.js.map",
-    "787.7213e72e.chunk.js.map": "/static/js/787.7213e72e.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.94c9ae82.css",
-    "static/js/main.83bf54fc.js"
-  ]
+  "main.css": "/VidenStrategy/static/css/main.ae932a58.chunk.css",
+  "main.js": "/VidenStrategy/static/js/main.6007a922.chunk.js",
+  "main.js.map": "/VidenStrategy/static/js/main.6007a922.chunk.js.map",
+  "runtime~main.js": "/VidenStrategy/static/js/runtime~main.4ce970a5.js",
+  "runtime~main.js.map": "/VidenStrategy/static/js/runtime~main.4ce970a5.js.map",
+  "static/js/2.aa9c0696.chunk.js": "/VidenStrategy/static/js/2.aa9c0696.chunk.js",
+  "static/js/2.aa9c0696.chunk.js.map": "/VidenStrategy/static/js/2.aa9c0696.chunk.js.map",
+  "static/js/3.333ed05c.chunk.js": "/VidenStrategy/static/js/3.333ed05c.chunk.js",
+  "static/js/3.333ed05c.chunk.js.map": "/VidenStrategy/static/js/3.333ed05c.chunk.js.map",
+  "index.html": "/VidenStrategy/index.html",
+  "precache-manifest.286457607463ed4ee8f52fa03abc6a34.js": "/VidenStrategy/precache-manifest.286457607463ed4ee8f52fa03abc6a34.js",
+  "service-worker.js": "/VidenStrategy/service-worker.js",
+  "static/css/main.ae932a58.chunk.css.map": "/VidenStrategy/static/css/main.ae932a58.chunk.css.map"
 }

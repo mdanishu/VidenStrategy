@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/VidenStrategy/precache-manifest.286457607463ed4ee8f52fa03abc6a34.js"
+  "/VidenStrategy/precache-manifest.0ede1c6edc04f5fedb623a7d0ec25a75.js"
 );
 
 workbox.clientsClaim();

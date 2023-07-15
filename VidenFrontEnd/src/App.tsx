@@ -6,8 +6,29 @@ import Home from './pages/home';
 import About from './pages/about';
 import Blogs from './pages/blogs';
 import Contact from './pages/contact';
+import ReactGA from 'react-ga';
+
+//for google analytics
+const trackingId = "G-X9TQKJ8Q0J"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+
 
 const App: React.FC = () => {
+  let location = useLocation();
+
+  //for google analytics
+  useEffect(() => {
+    // To not send hits during development
+    if (process.env.NODE_ENV === 'production') {
+      ReactGA.pageview(location.pathname + location.search);
+    }
+  }, [location]);
+//for google analytics above
+
   return (
     <div className="App">
       <header className="App-header">

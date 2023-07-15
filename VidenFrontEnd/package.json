@@ -1,8 +1,8 @@
 {
-  "name": "Viden Strategy",
-  "version": "0.1.0",
+  "name": "viden-vtrategy",
+  "version": "0.3.0",
   "private": true,
-  "homepage": "VidenStrategy.com",
+  "homepage": "https://mdanishu.github.io/VidenStrategy/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",

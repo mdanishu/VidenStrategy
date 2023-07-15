@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/VidenStrategy/precache-manifest.dfb1fb89f99e1d32ef1a994d353a3a60.js"
+  "VidenStrategy.com/precache-manifest.dfcafd81972309bf8096b3b730d245bb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/VidenStrategy/index.html", {
+workbox.routing.registerNavigationRoute("VidenStrategy.com/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

@@ -35,23 +35,23 @@ const App: React.FC = () => {
         <nav>
           <li>
             <Link className="App-link" to="/">
-              Home
+              <button className="nav-button">Home</button>
             </Link>{" "}
           </li>
           <li>
             <Link className="App-link" to="/about">
-              About
+            <button className="nav-button">About</button>
             </Link>{" "}
           </li>
           <li>
             {" "}
             <Link className="App-link" to="/blogs">
-              Blogs
+              <button className="nav-button">Blogs</button>
             </Link>{" "}
           </li>
           <li>
             <Link className="App-link" to="/contact">
-              Contact
+              <button className="nav-button">Contact</button>
             </Link>{" "}
           </li>
         </nav>
@@ -61,7 +61,7 @@ const App: React.FC = () => {
         <div className="container">
           {/* add the container class here */}
           <img
-            src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca9d90d7-99fe-427d-b218-7b2662615eee_500x500.png"
+            src="Viden Strategy.png"
             alt="test text"
           />
         </div>

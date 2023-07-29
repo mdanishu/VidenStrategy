@@ -3,7 +3,7 @@ import React from 'react';
 const About: React.FC = () => {
 return (
 	<div className="Home">
-	<h2>My name is Danish, founder of Viden Strategy.</h2>
+	<h2 style={{ color: "#BDDABC"}}>My name is Danish, founder of Viden Strategy.</h2>
 <p>
 I went to business school at Rice University and built equity analysis skills in the Wright Fund. 
 I also built biotech consulting skills in an accelerator in the Texas Medical Center. 
